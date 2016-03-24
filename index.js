@@ -63,7 +63,7 @@ function getSource(url) {
     '  iframe.addEventListener(\'load\', injectScript);\n' +
     '}\n' +
     'document.body.appendChild(iframe);\n' +
-    'module.exports = iframe.contentWindow;';
+    'module.exports = iframe;';
 }
 
 function getCompilation(loader) {
